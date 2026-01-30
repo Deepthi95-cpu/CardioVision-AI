@@ -3,7 +3,7 @@
 ### 🏆 Project Overview
 **Developed an interpretable machine learning model for stroke/heart risk prediction using clinical data, leveraging SHAP to provide feature-level reasoning.**
 
-Currently focused on building a **3D U-Net model for detecting coronary blockages** and integrating a chatbot to offer interactive clinical support.
+Mainly focused on building a **3D U-Net model for detecting coronary blockages** and integrating a chatbot to offer interactive clinical support.
 
 ### 🛠️ Tech Stack
 - **Clinical Model:** AdaBoost Classifier + SHAP (Explainable AI)
@@ -18,7 +18,7 @@ Currently focused on building a **3D U-Net model for detecting coronary blockage
 
 ### 🚀 Usage
 1. Install dependencies: `pip install -r requirements.txt`
-2. Run the App: `streamlit run app.py`
+2. Run the App: `python -m streamlit run app.py --server.maxUploadSize 2000`
 
 ---
 *Created by Deepthi*
